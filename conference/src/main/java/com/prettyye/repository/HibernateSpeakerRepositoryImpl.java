@@ -5,7 +5,7 @@ import com.prettyye.model.Speaker;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HibernateSpeakerRepositoryImpl {
+public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
     public List<Speaker> findAll() {
         List<Speaker> speakers = new ArrayList<Speaker>();
