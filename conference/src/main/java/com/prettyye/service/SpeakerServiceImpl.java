@@ -30,7 +30,12 @@ public class SpeakerServiceImpl implements SpeakerService {
     }
 
 //    @Autowired
-    public void setRepository(SpeakerRepository repository) {
+//    public void setRepository(SpeakerRepository repository) {
+//        System.out.println("SpeakServiceImpl setter");
+//        this.repository = repository;
+//    }
+
+    public void setSpeakerRepository(SpeakerRepository repository) {
         System.out.println("SpeakServiceImpl setter");
         this.repository = repository;
     }
