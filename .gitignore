@@ -6,3 +6,5 @@ conference/.idea/misc.xml
 *.class
 conference/target/classes/applicationContext.xml
 conference/target/classes/notes.txt
+.idea/*
+*.iml

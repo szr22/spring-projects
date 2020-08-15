@@ -28,7 +28,7 @@ public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
         speaker.setLastName("Tzo");
         speaker.setSeedNam(seedNum);
 
-        System.out.println("cal: " + cal.getTime());
+//        System.out.println("cal: " + cal.getTime());
 
         speakers.add(speaker);
 
